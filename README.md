@@ -16,6 +16,48 @@ Allereerst ben ik sass gaan leren. Hiervoor heb ik gewoon de eigen website van s
 
 Achteraf was sass misschien niet echt nodig voor dit project omdat het prototype vrij klein is gebleven maar ik vind het erg leuk dat ik dit nu aan mijn rijtje van skills kan toevoegen. 
 
-<h2>Must haves voor dit prototype zodat het uiteindelijk omgezet kan worden naar een werkend iets met een database</h2>
-<li>De hints bij het first time use getimed maken zodat ze op het juiste moment verschijnen ipv de klik die het nu vereist</li>
-<li>De hints bij het first time use getimed maken zodat ze op het juiste moment verschijnen ipv de klik die het nu vereist</li>
+<h2>Must haves zodat dit prototype op de user getest kan worden</h2>
+De hints bij het first time use getimed maken zodat ze op het juiste moment verschijnen ipv de klik die het nu vereist
+
+<h3>Per pagina </h3>
+<ul> Alle oefeningen
+<li>Sorteren uitwerken</li>
+<li>Oefening toevoegen (niet werkend vanwege hint)</li>
+<li>Hart bij Jacobsen oefening laten werken (niet werkend vanwege hint)</li>
+<li>Wanneer je scrollt overlappen de harten met de bovenste twee balken</li>
+<li>Alle oefeningen klikbaar</li>
+</ul>
+<ul> Favorieten
+<li>Sorteren uitwerken</li>
+<li>Wanneer je scrollt overlappen de harten met de bovenste twee balken</li>
+<li>Wanneer je een oefening uit je favorieten verwijderd, verdwijnt deze ook echt uit dit rijtje</li>
+<li>Alle oefeningen klikbaar</li>
+</ul>
+<ul> Oefening toevoegen
+<li>Juiste categorieen</li>
+<li>textarea juiste hoogte</li>
+<li>tekst in textareas verdwijnt als je gaat typen</li>
+<li>Media toevoegenen en situatie iconen veranderen van kleur bij klik</li>
+<li>Oefening plaatsen werkend maken</li>
+</ul>
+<ul> Oefening detail (Jacobsen)
+<li>Ervaringen klikbaar + met cijfers</li>
+<li>Taggen werkend</li>
+<li>Oefening deelbaar maken</li>
+</ul>
+<ul> Testen
+<li>Testen uitwerken</li>
+<li>Labels toevoegen aan testen</li>
+</ul>
+<ul> Meldingen
+<li>uitwerken</li>
+</ul>
+<ul> Instellingen
+<li>Profielfoto wijzigen uitwerken</li>
+<li>Gegevens wijzigen uitwerken</li>
+<li>Profiel verwijderen uitwerken</li>
+</ul>
+
+<h2>Nice to have</h2>
+<li>Het prototype responsive maken. Op dit moment werkt hij alleen bij een bepaalde breedte, dit komt doordat oa de hints op een vaste plek staan. Wel is alles met % of ems gemaakt dus in dat opzicht is ie redelijk responsive. Voor het testen op een persoon is dit niet nodig omdat je dan het prototype op het juiste device kan geven<li>
+<li>Het prototype uitwerken zodat het bruikbaar is (met een database etc.)<li>
