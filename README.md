@@ -30,12 +30,10 @@ De hints bij het first time use getimed maken zodat ze op het juiste moment vers
 <ul> Favorieten
 <li>Sorteren uitwerken</li>
 <li>Wanneer je scrollt overlappen de harten met de bovenste twee balken</li>
-<li>Wanneer je een oefening uit je favorieten verwijderd, verdwijnt deze ook echt uit dit rijtje</li>
+<li>Wanneer je een oefening uit je favorieten verwijdert, verdwijnt deze ook echt uit dit rijtje</li>
 <li>Alle oefeningen klikbaar</li>
 </ul>
 <ul> Oefening toevoegen
-<li>textarea juiste hoogte</li>
-<li>tekst in textareas verdwijnt als je gaat typen</li>
 <li>Media toevoegenen en situatie iconen veranderen van kleur bij klik</li>
 <li>Oefening plaatsen werkend maken</li>
 </ul>
@@ -46,7 +44,6 @@ De hints bij het first time use getimed maken zodat ze op het juiste moment vers
 </ul>
 <ul> Testen
 <li>Testen uitwerken</li>
-<li>Labels toevoegen aan testen</li>
 </ul>
 <ul> Meldingen
 <li>uitwerken</li>
