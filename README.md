@@ -1,6 +1,6 @@
 <h1>FIRST-USE-PROTO</h1>
 
-Werkend prototype: https://amc.elianneruyter.nl/Alle-oefeningen.html 
+Werkend prototype: https://elianneruyter.nl/amc/Alle_oefeningen.html 
 Back-up: https://oege.ie.hva.nl/~ruijtee002/AMC/Favorieten.html (mijn server heeft nogal kuren de laatste tijd 
 Bronnen: 
 Turning heart: http://callmenick.com/post/css-transitions-transforms-animations-flipping-card 
