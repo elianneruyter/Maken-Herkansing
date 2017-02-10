@@ -59,5 +59,5 @@ De hints bij het first time use getimed maken zodat ze op het juiste moment vers
 </ul>
 
 <h2>Nice to have</h2>
-<li>Het prototype responsive maken. Op dit moment werkt hij alleen bij een bepaalde breedte, dit komt doordat oa de hints op een vaste plek staan. Wel is alles met % of ems gemaakt dus in dat opzicht is ie redelijk responsive. Voor het testen op een persoon is dit niet nodig omdat je dan het prototype op het juiste device kan geven<li>
-<li>Het prototype uitwerken zodat het bruikbaar is (met een database etc.)<li>
+<li>Het prototype responsive maken. Op dit moment werkt hij alleen bij een bepaalde breedte, dit komt doordat oa de hints op een vaste plek staan. Wel is alles met % of ems gemaakt dus in dat opzicht is ie redelijk responsive. Voor het testen op een persoon is dit niet nodig omdat je dan het prototype op het juiste device kan geven</li>
+<li>Het prototype uitwerken zodat het bruikbaar is (met een database etc.)</li>
