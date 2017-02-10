@@ -19,7 +19,7 @@ Achteraf was sass misschien niet echt nodig voor dit project omdat het prototype
 <h2>Must haves zodat dit prototype op de user getest kan worden</h2>
 De hints bij het first time use getimed maken zodat ze op het juiste moment verschijnen ipv de klik die het nu vereist
 
-<h3>Per pagina </h3>
+<h3>Issues per pagina </h3>
 <ul> Alle oefeningen
 <li>Sorteren uitwerken</li>
 <li>Oefening toevoegen (niet werkend vanwege hint)</li>
@@ -46,14 +46,10 @@ De hints bij het first time use getimed maken zodat ze op het juiste moment vers
 <li>Testen uitwerken</li>
 </ul>
 <ul> Meldingen
-<li>uitwerken</li>
-</ul>
-<ul> Instellingen
-<li>Profielfoto wijzigen uitwerken</li>
-<li>Gegevens wijzigen uitwerken</li>
-<li>Profiel verwijderen uitwerken</li>
+<li>Nog helemaal uitwerken</li>
 </ul>
 
 <h2>Nice to have</h2>
 <li>Het prototype responsive maken. Op dit moment werkt hij alleen bij een bepaalde breedte, dit komt doordat oa de hints op een vaste plek staan. Wel is alles met % of ems gemaakt dus in dat opzicht is ie redelijk responsive. Voor het testen op een persoon is dit niet nodig omdat je dan het prototype op het juiste device kan geven</li>
 <li>Het prototype uitwerken zodat het bruikbaar is (met een database etc.)</li>
+<li>Bij instellingen het mogelijk maken van het wijzigen van de elementen</li>
