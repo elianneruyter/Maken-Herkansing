@@ -1,0 +1,430 @@
+header {
+  background-color: #66b38f;
+  position: fixed;
+  top: 0em;
+  width: 100%;
+  display: flex; }
+  header h1 {
+    padding-left: 0.6em;
+    font-size: 1em;
+    width: 85%; }
+  header a {
+    height: 100%;
+    padding: 1em; }
+
+.top_menu {
+  background-color: #D8D8D8;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  position: fixed;
+  align-items: center;
+  top: 3em;
+  height: 2em; }
+  .top_menu a {
+    width: 50%;
+    text-decoration: none;
+    color: black; }
+  .top_menu .active {
+    color: #66b38f;
+    font-weight: bold; }
+
+.content {
+  margin-top: 6em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 3.5em; }
+
+.Oefening {
+  background-color: #F4F4F4;
+  display: flex;
+  width: 85%;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 1em;
+  margin-bottom: 1em;
+  /* click effect */ }
+  .Oefening .fa {
+    padding-right: 0.4em; }
+  .Oefening .titel_beschrijving {
+    display: flex;
+    flex-wrap: wrap;
+    width: 67%;
+    padding-left: 0.4em; }
+    .Oefening .titel_beschrijving h2, .Oefening .titel_beschrijving p {
+      width: 100%;
+      margin: 0; }
+    .Oefening .titel_beschrijving h2 {
+      font-size: 1em; }
+  .Oefening .normal, .Oefening .favorite {
+    position: absolute;
+    /* zo blijft hij op dezelfde positie bij flip*/
+    backface-visibility: hidden;
+    /* Anders gaat hij naar spiegelbeeld, we will need to hide the "backs" of cards*/
+    transition: transform 0.8s; }
+  .Oefening .favorite {
+    transform: rotatey(-180deg); }
+  .Oefening .heart_turn.turn .normal {
+    transform: rotatey(-180deg);
+    /*draait de normale naar achter*/ }
+  .Oefening .heart_turn.turn .favorite {
+    transform: rotatey(0); }
+  .Oefening img {
+    width: 2.3em;
+    margin-top: -1em; }
+  .Oefening .omschrijving {
+    width: 90%;
+    margin: 0;
+    padding-top: 0.5em; }
+
+#clickable_oefening {
+  color: black;
+  text-decoration: none; }
+
+.Jacobsen .Top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid #66b38f;
+  padding: 0 1em; }
+  .Jacobsen .Top h1 {
+    font-size: 1.5em; }
+  .Jacobsen .Top a {
+    color: black; }
+.Jacobsen .Second {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0 1em;
+  margin-top: 1em;
+  border-bottom: solid #66b38f;
+  padding: 0 2em; }
+  .Jacobsen .Second .fa {
+    padding-right: 0.4em; }
+  .Jacobsen .Second .titel_beschrijving {
+    padding: 0 1em; }
+    .Jacobsen .Second .titel_beschrijving h2 {
+      font-size: 1em;
+      margin: 0; }
+    .Jacobsen .Second .titel_beschrijving p {
+      margin: 0; }
+  .Jacobsen .Second iframe {
+    width: 100%;
+    border: none; }
+  .Jacobsen .Second .Fav {
+    display: flex;
+    flex-wrap: wrap;
+    /* click effect */ }
+    .Jacobsen .Second .Fav .normal, .Jacobsen .Second .Fav .favorite {
+      position: absolute;
+      /* zo blijft hij op dezelfde positie bij flip*/
+      backface-visibility: hidden;
+      /* Anders gaat hij naar spiegelbeeld, we will need to hide the "backs" of cards*/
+      transition: transform 0.8s; }
+    .Jacobsen .Second .Fav .favorite {
+      transform: rotatey(-180deg); }
+    .Jacobsen .Second .Fav .heart_turn.turn .normal {
+      transform: rotatey(-180deg);
+      /*draait de normale naar achter*/ }
+    .Jacobsen .Second .Fav .heart_turn.turn .favorite {
+      transform: rotatey(0); }
+    .Jacobsen .Second .Fav img {
+      width: 2.3em;
+      margin-top: 1.8em; }
+    .Jacobsen .Second .Fav p {
+      margin-left: 3em; }
+.Jacobsen .Third {
+  padding: 0 2em 1em 2em;
+  border-bottom: solid #66b38f;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .Jacobsen .Third h2 {
+    font-size: 1em;
+    with: 100%; }
+  .Jacobsen .Third p:first-of-type {
+    width: 100%;
+    margin: 0; }
+  .Jacobsen .Third p:not(:first-of-type) {
+    width: 42%;
+    border: solid #D8D8D8;
+    background-color: #D8D8D8;
+    border-radius: 1em;
+    padding-left: 0.5em; }
+.Jacobsen .Fourth {
+  padding: 0 2em; }
+  .Jacobsen .Fourth h2 {
+    font-size: 1em; }
+  .Jacobsen .Fourth p:nth-of-type(2) {
+    border: solid #D8D8D8;
+    background-color: #D8D8D8;
+    border-radius: 1em;
+    padding-left: 0.5em;
+    color: #F0F0F0; }
+    .Jacobsen .Fourth p:nth-of-type(2) em {
+      color: black;
+      padding-left: 0.5em; }
+  .Jacobsen .Fourth .fa:nth-of-type(2) {
+    padding-left: 0.5em;
+    margin-bottom: 1em; }
+
+nav {
+  position: fixed;
+  bottom: 0em;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  background-color: #D8D8D8;
+  height: 3.8em; }
+  nav .active {
+    color: #66b38f; }
+  nav a {
+    text-decoration: none;
+    color: black;
+    padding: 0.4em; }
+  nav #melding {
+    position: fixed;
+    bottom: 2.8em;
+    left: 12.5em;
+    color: #66b38f; }
+
+.Toevoegen .Top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid #66b38f;
+  padding: 0 1em; }
+  .Toevoegen .Top h1 {
+    font-size: 1.5em; }
+  .Toevoegen .Top a {
+    color: black; }
+.Toevoegen form fieldset {
+  border: none;
+  border-bottom: solid #66b38f;
+  padding: 1em; }
+  .Toevoegen form fieldset legend {
+    font-weight: 600;
+    text-align: center;
+    padding-top: 1em; }
+  .Toevoegen form fieldset:first-child select, .Toevoegen form fieldset:first-child input, .Toevoegen form fieldset:first-child textarea {
+    width: 100%;
+    margin-top: 1em;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    border: none;
+    background-color: #F4F4F4;
+    box-sizing: border-box; }
+  .Toevoegen form fieldset:first-child textarea {
+    height: 5em; }
+  .Toevoegen form fieldset:nth-child(2) .opties, .Toevoegen form fieldset:nth-child(4) .opties {
+    display: flex;
+    justify-content: center; }
+  .Toevoegen form fieldset:nth-child(2) label, .Toevoegen form fieldset:nth-child(4) label {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    align-items: center;
+    text-align: center; }
+    .Toevoegen form fieldset:nth-child(2) label button, .Toevoegen form fieldset:nth-child(4) label button {
+      border-radius: 50%;
+      width: 4em;
+      height: 4em;
+      border: none;
+      background-color: #F4F4F4;
+      margin: 1em; }
+  .Toevoegen form fieldset:nth-child(3) {
+    text-align: center; }
+    .Toevoegen form fieldset:nth-child(3) input {
+      width: 40%;
+      background-color: #F4F4F4;
+      border: none;
+      height: 2em; }
+.Toevoegen form .plaatsen {
+  margin: 1.5em 1em;
+  background-color: #66b38f;
+  border: none;
+  border-radius: 0.5em;
+  height: 2em;
+  width: 90%; }
+
+.instellingen_top {
+  margin-top: 2.6em;
+  border-bottom: solid #66b38f;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .instellingen_top img {
+    margin: 1em 0 1em 0;
+    border-radius: 50%;
+    width: 30%;
+    height: 30%; }
+  .instellingen_top .change {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .instellingen_top .change a, .instellingen_top .change i {
+      color: #66b38f; }
+    .instellingen_top .change a {
+      font-weight: 600; }
+    .instellingen_top .change i {
+      margin-left: 1em; }
+  .instellingen_top p {
+    text-align: center;
+    width: 100%;
+    margin: 0; }
+    .instellingen_top p:last-of-type {
+      padding-bottom: 1em; }
+
+.instellingen {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1em;
+  justify-content: space-between; }
+  .instellingen em {
+    width: 40%;
+    font-weight: 600;
+    font-style: normal; }
+  .instellingen a {
+    color: #66b38f; }
+    .instellingen a i {
+      margin-left: 1em; }
+  .instellingen p {
+    width: 100%;
+    margin: 0; }
+  .instellingen form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; }
+    .instellingen form p {
+      width: 80%; }
+  .instellingen button {
+    width: 70%;
+    height: 2.5em;
+    margin: 1em auto 0 auto;
+    color: #66b38f;
+    font-weight: 600;
+    border: none;
+    background-color: #F4F4F4;
+    border-radius: 1em; }
+
+.grafieken {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap; }
+  .grafieken p, .grafieken i {
+    width: 50%; }
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito", sans-serif; }
+
+#hint1 {
+  visibility: hidden;
+  position: fixed;
+  top: 3.5em;
+  left: 5em;
+  background-color: #2D3330;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 70%;
+  padding: 0.5em; }
+  #hint1:target {
+    visibility: visible; }
+  #hint1 .fa {
+    top: 0.6em;
+    left: 5.9em;
+    position: fixed;
+    color: #2D3330; }
+  #hint1 p {
+    width: 75%;
+    color: white;
+    margin: 0 1em 0 0.5em; }
+  #hint1 a {
+    width: 10%; }
+
+#hint2, #hint3 {
+  visibility: hidden;
+  position: fixed;
+  top: 25em;
+  background-color: #2D3330;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 70%;
+  padding: 0.5em; }
+  #hint2:target, #hint3:target {
+    visibility: visible; }
+  #hint2 .fa, #hint3 .fa {
+    top: 8.7em;
+    left: 4.8em;
+    position: fixed;
+    color: #2D3330; }
+  #hint2 p, #hint3 p {
+    width: 75%;
+    color: white;
+    margin: 0 1em 0 0.5em; }
+  #hint2 a, #hint3 a {
+    width: 10%; }
+
+.hint {
+  color: black;
+  text-decoration: none; }
+
+#hint4 {
+  visibility: hidden;
+  position: fixed;
+  top: 2em;
+  left: 2.5em;
+  background-color: #2D3330;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 70%;
+  padding: 0.5em; }
+  #hint4:target {
+    visibility: visible; }
+  #hint4 .fa {
+    top: 2em;
+    left: 3em;
+    position: fixed;
+    color: #2D3330; }
+  #hint4 p {
+    width: 75%;
+    color: white;
+    margin: 0 1em 0 0.5em; }
+  #hint4 a {
+    width: 10%; }
+
+#hint5 {
+  visibility: hidden;
+  position: fixed;
+  bottom: 5em;
+  left: 4em;
+  background-color: #2D3330;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 70%;
+  padding: 0.5em; }
+  #hint5:target {
+    visibility: visible; }
+  #hint5 .fa {
+    bottom: 1.1em;
+    left: 3.6em;
+    position: fixed;
+    color: #2D3330; }
+  #hint5 p {
+    width: 75%;
+    color: white;
+    margin: 0 1em 0 0.5em; }
+  #hint5 a {
+    width: 10%; }
+
+/*# sourceMappingURL=style.css.map */

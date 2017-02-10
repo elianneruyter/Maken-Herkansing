@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Introductie prototype</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="Toevoegen">
+       <div class="Top">
+            <h1>Oefening Toevoegen</h1> 
+            <a href="Favorieten.html"><i class="fa fa-times-circle-o fa-lg"></i></a>
+       </div>
+           <form>
+              <fieldset class="basic-info">
+                  <legend>Informatie over de oefening</legend>
+                             <select>
+                              <option value="Category">Categorie</option>
+                              <option value="Aandacht">Aandacht</option>
+                              <option value="Ontspanning">Ontspanning</option>
+                             </select>
+                   <input type="text" name="titel" placeholder="Titel..." required>
+                   <textarea name="omschrijving" id="omschrijving" placeholder="Korte omschrijving..." required></textarea>
+                   <textarea name="stappenplan" id="stappenplan" placeholder="Stappenplan..." required></textarea>
+              </fieldset>
+              <fieldset>
+                  <legend>Media Toevoegen</legend>
+                  <div class="opties">
+                  <label>
+                      <button><i class="fa fa-volume-up fa-2x"></i></button>
+                      <span>Geluid</span>
+                  </label>
+                  <label>
+                      <button><i class="fa fa-video-camera fa-2x"></i></button>
+                      <span>Video</span>
+                  </label>
+                  <label>
+                      <button><i class="fa fa-picture-o fa-2x"></i></button>
+                      <span>Foto</span>
+                  </label>
+                  </div> 
+              </fieldset>
+              <fieldset>
+                  <legend>Tijdsduur</legend>
+                      <label for="tijd">
+                          <input type="number" name="time" min="1" max="60" id="tijd" required>
+                          <span>Minuten</span>
+                      </label>
+              </fieldset> 
+              <fieldset>
+                  <legend>Situatie</legend>
+                  <div class="opties">
+                      <label>
+                          <button><i class="fa fa-user fa-2x"></i></button>
+                          <span>Alleen</span>
+                      </label>
+                      <label>
+                          <button><i class="fa fa-users fa-2x"></i></button>
+                          <span>Onder de mensen</span>
+                      </label>
+                  </div>
+              </fieldset> 
+              <a href="Favorieten.html"><button type="button" class="plaatsen">Oefening plaatsen</button></a>                
+           </form>
+    </div>
+    <div id="hint4">
+        <i class="fa fa-play fa-3x fa-rotate-90"></i>  
+        <p>Welke woorden omschrijven deze oefening goed?</p>
+        <a href="#"><img src="img/error.png"></a>
+    </div>
+            
+<script src="javascript.js"></script>
+</body>
+</html>
+
+
+
+<!--
+Bronnen:
+Turning heart: http://callmenick.com/post/css-transitions-transforms-animations-flipping-card
+Hints: http://www.sevensignature.com/blog/code/pure-css-popup-without-javascript/
+Flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+-->

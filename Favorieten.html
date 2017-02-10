@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Introductie prototype</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+       <h1>Favorieten</h1>
+        <a href="#"><img src="img/sort.png"></a>
+        <a href="Nieuwe-oefening.html"><img src="img/plus.png"></a>
+    </header>
+   <section class="top_menu">
+       <a href="Alle_oefeningen.html">Alle oefeningen</a>
+       <a href="Favorieten.html" class="active">Favorieten</a>
+   </section>
+   <section class="content">
+         
+          <div class="Oefening">
+            <div class="iconen">
+               <i class="fa fa-clock-o"></i>
+               <i class="fa fa-users"></i>
+            </div>
+            <div class="titel_beschrijving">
+               <h2>Ademhaling tellen</h2>
+               <p>Aandacht</p>
+            </div>
+            <div class="heart_turn">
+                <div class="normal">
+                    <img src="img/heart-02.png">
+                </div>
+                <div class="favorite">
+                    <img src="img/heart-03.png">
+                </div>
+            </div>
+            <p class="omschrijving">Adem in voor 4 seconden, houd dit vast. Adem uit voor 8 seconden.</p>
+          </div>
+          
+           <div class="Oefening">
+            <div class="iconen">
+               <i class="fa fa-clock-o"></i>
+               <i class="fa fa-user"></i>
+            </div>
+            <div class="titel_beschrijving">
+               <h2>Jacobsen</h2>
+               <p>Ontspanning</p>
+            </div>
+            <div class="heart_turn">
+                <div class="normal">
+                    <img src="img/heart-02.png">
+                </div>
+                <div class="favorite">
+                    <img src="img/heart-03.png">
+                </div>
+            </div>
+            <p class="omschrijving">Span 1 voor 1 onderdelen van je lichaam aan en onstpan deze daarna.</p>
+          </div>
+          
+          <div class="Oefening">
+            <div class="iconen">
+               <i class="fa fa-clock-o"></i>
+               <i class="fa fa-user"></i>
+            </div>
+            <div class="titel_beschrijving">
+               <h2>Maak een associatievideo</h2>
+               <a href="#hint3" class="hint"><p>Associatie</p></a>
+            </div>
+            <div class="heart_turn">
+                <div class="normal">
+                    <img src="img/heart-02.png">
+                </div>
+                <div class="favorite">
+                    <img src="img/heart-03.png">
+                </div>
+            </div>
+            <p class="omschrijving">Leer hoe je je eigen associatie met een geluid kunt vertalen naar een video?</p>
+          </div>
+          
+   </section>
+   <nav>
+        <a class="active" href="Alle_oefeningen.html"><i class="fa fa-home fa-2x"></i>Home</a>
+        <a href="Testen.html"><i class="fa fa-bar-chart fa-2x"></i>Testen</a>
+        <a href="#hint5"><i class="fa fa-envelope-o fa-2x"></i><i class="fa fa-exclamation-circle" id="melding"></i>Meldingen</a>
+        <a href="Instellingen.html"><i class="fa fa-cog fa-2x"></i>Instellingen</a>
+   </nav>
+   <div id="hint3">
+        <i class="fa fa-play fa-3x"></i>  
+        <p>Toch geen favoriet? Dan kunt u hem weer verwijderen door op het hartje te drukken.</p>
+        <a href="#"><img src="img/error.png"></a>
+    </div>
+    
+<script src="javascript.js"></script>
+</body>
+</html>
+
+
+
+<!--
+Bronnen:
+Turning heart: http://callmenick.com/post/css-transitions-transforms-animations-flipping-card
+Hints: http://www.sevensignature.com/blog/code/pure-css-popup-without-javascript/
+Flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+-->
