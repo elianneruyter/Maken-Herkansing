@@ -34,7 +34,6 @@ De hints bij het first time use getimed maken zodat ze op het juiste moment vers
 <li>Alle oefeningen klikbaar</li>
 </ul>
 <ul> Oefening toevoegen
-<li>Juiste categorieen</li>
 <li>textarea juiste hoogte</li>
 <li>tekst in textareas verdwijnt als je gaat typen</li>
 <li>Media toevoegenen en situatie iconen veranderen van kleur bij klik</li>
